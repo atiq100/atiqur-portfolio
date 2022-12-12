@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/atiqur-portfolio/static/css/main.92369b64.css",
-    "main.js": "/atiqur-portfolio/static/js/main.f14a506e.js",
+    "main.css": "/atiqur-portfolio/static/css/main.e426419e.css",
+    "main.js": "/atiqur-portfolio/static/js/main.a6ce9892.js",
     "static/js/787.128fc6e9.chunk.js": "/atiqur-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/pc.png": "/atiqur-portfolio/static/media/pc.79b59a7b76625ae796eb.png",
     "static/media/profile.png": "/atiqur-portfolio/static/media/profile.4b19a53e061b9c8d2b15.png",
     "static/media/Atiqur Rahman.pdf": "/atiqur-portfolio/static/media/Atiqur Rahman.a6c9abf29f88262b896e.pdf",
     "index.html": "/atiqur-portfolio/index.html",
-    "main.92369b64.css.map": "/atiqur-portfolio/static/css/main.92369b64.css.map",
-    "main.f14a506e.js.map": "/atiqur-portfolio/static/js/main.f14a506e.js.map",
+    "main.e426419e.css.map": "/atiqur-portfolio/static/css/main.e426419e.css.map",
+    "main.a6ce9892.js.map": "/atiqur-portfolio/static/js/main.a6ce9892.js.map",
     "787.128fc6e9.chunk.js.map": "/atiqur-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.92369b64.css",
-    "static/js/main.f14a506e.js"
+    "static/css/main.e426419e.css",
+    "static/js/main.a6ce9892.js"
   ]
 }
