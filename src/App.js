@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import { Toaster } from "react-hot-toast";
+import Home from "./Pages/Home/Home/Home";
+import ParticlesBacground from "./Pages/Shared/Config/ParticlesBacground";
+
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
+      <ParticlesBacground></ParticlesBacground>
+      <Home></Home>
+      <Toaster></Toaster>
+      
+    
     </div>
   );
 }

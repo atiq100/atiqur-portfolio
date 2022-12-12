@@ -1,0 +1,22 @@
+.btn{
+    background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+
+}
+.btn:hover{
+    background: linear-gradient(270deg, #0dc1e1 0%, #4459d6 66.67%, #7a27df 100%);
+}
+.border-btn{
+    border-style: solid;
+    border-image: linear-gradient(270deg, #0dc1e1 0%, #4459d6 66.67%, #7a27df 100%) 1;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.border-btn:hover{
+    background: linear-gradient(270deg, #0dc1e1 0%, #4459d6 66.67%, #7a27df 100%);
+}
+.border-form{
+    border-style: solid;
+    border-image: linear-gradient(270deg, #0dc1e1 0%, #4459d6 66.67%, #7a27df 100%) 1;
+    border-radius: 6px;
+   
+}
