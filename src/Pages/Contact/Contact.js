@@ -13,7 +13,7 @@ const Contact = () => {
       .then((result) => {
           console.log(result.text);
           toast.success('message sent successfully')
-          form.reset()
+          
       }, (error) => {
           console.log(error.text);
       });
@@ -21,7 +21,7 @@ const Contact = () => {
 
     return (
         <div className='py-6'id='contact'>
-            <section className="py-6 dark:bg-gray-800 dark:text-gray-50">
+            <section className="py-6 dark:bg-gray-800 text-gray-50">
 	<div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
 		<div className="py-6 md:py-0 md:px-6"data-aos="fade-right"
      data-aos-easing="linear"

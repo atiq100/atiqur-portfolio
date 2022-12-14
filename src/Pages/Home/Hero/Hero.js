@@ -15,7 +15,7 @@ export const Hero = () => {
                 Atiqur Rahman
                 
               </h2>
-              <p>
+              <span>
               <TypeWriterEffect
         textStyle={{
           fontFamily: 'Red Hat Display',
@@ -34,7 +34,7 @@ export const Hero = () => {
         multiTextDelay={1000}
         typeSpeed={30}
       />
-           </p>   
+           </span>   
             </div>
             <div className="flex items-center space-x-3" data-aos="fade-up"
      data-aos-easing="linear"

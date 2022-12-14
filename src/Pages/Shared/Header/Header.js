@@ -9,7 +9,7 @@ export const Header = () => {
   
     return (
       <div className="bg-gray-900">
-        <div className=" px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 shadow-md">
+        <div className="z-100 px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 shadow-md">
           <div className="relative flex items-center justify-evenly">
             <div className="flex items-center">
               {/* <Link
@@ -39,8 +39,8 @@ export const Header = () => {
               </Link> */}
               <ul className="flex items-center hidden space-x-8 lg:flex">
                 <li >
-                  <Link
-                    to="/" spy={true} smooth={true} offset={50} duration={500}
+                  <a
+                    href='/' 
                     aria-label="Home"
                     title="Home"
 
@@ -48,7 +48,7 @@ export const Header = () => {
                     className="cursor-pointer font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
                   >
                     Home
-                  </Link>
+                  </a>
                 </li>
                 <li>
                   <Link
@@ -169,14 +169,14 @@ export const Header = () => {
                     <nav>
                       <ul className="space-y-4">
                         <li>
-                          <Link
-                            to="/" spy={true} smooth={true} offset={50} duration={500}
+                          <a
+                            href="/" spy={true} smooth={true} offset={50} duration={500}
                             aria-label="Home"
                             title="Home"
                             className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-purple-400"
                           >
                             Home
-                          </Link>
+                          </a>
                         </li>
                         <li>
                           <Link
