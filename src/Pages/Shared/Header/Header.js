@@ -40,7 +40,7 @@ export const Header = () => {
               <ul className="flex items-center hidden space-x-8 lg:flex">
                 <li >
                   <a
-                    href='/' 
+                    href='/atiqur-portfolio' 
                     aria-label="Home"
                     title="Home"
 
@@ -170,7 +170,7 @@ export const Header = () => {
                       <ul className="space-y-4">
                         <li>
                           <a
-                            href="/" spy={true} smooth={true} offset={50} duration={500}
+                            href="/atiqur-portfolio" spy={true} smooth={true} offset={50} duration={500}
                             aria-label="Home"
                             title="Home"
                             className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-purple-400"

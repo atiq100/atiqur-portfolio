@@ -13,7 +13,7 @@ const ProjectCard = ({project}) => {
 			<p className="text-gray-100">{details}</p>
 		</div>
 		<div className='flex items-center justify-center gap-2'>
-        <Link to={`/project/${id}`} type="button" className=" w-2/5 p-3 font-semibold tracking-wide rounded-md btn text-white text-center">Details</Link>
+        <Link to={`/atiqur-portfolio/project/${id}`} type="button" className=" w-2/5 p-3 font-semibold tracking-wide rounded-md btn text-white text-center">Details</Link>
 		<a href={live} type="button" className="border-btn border rounded-md w-2/5 p-3 font-semibold tracking-wide text-white text-center">Live site</a>
         </div>
 	</div>

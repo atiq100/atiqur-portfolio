@@ -6,20 +6,20 @@ import Project from "../Pages/Projects/Project";
 
 export const routes = createBrowserRouter([
     {
-        path:'/',
+        path:'/atiqur-portfolio',
         element:<Main></Main>,
         errorElement:<ErrorPage></ErrorPage>,
         children:[
             {
                 
-                    path:'/',
+                    path:'/atiqur-portfolio',
                     element:<Home></Home>
                 
             },
             {
-                path:'/project/:id',
+                path:'/atiqur-portfolio/project/:id',
                 element: <Project></Project>,
-                loader: ({params}) => fetch(`https://my-portfolio-server-eight.vercel.app/projects/${params.id}`)
+                loader: ({params}) => fetch(`https://my-portfolio-server-eight.vercel.app/atiqur-portfolio/projects/${params.id}`)
             },
         ]
     }
